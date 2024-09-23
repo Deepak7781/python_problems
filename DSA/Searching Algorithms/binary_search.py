@@ -24,14 +24,12 @@ if binary(arr,T) == -1:
 else:
     print(f"Element is present in index position {binary(arr,T)}")
 
-    '''
-
+'''
 
 #recursivce approach
 
 
 def binary(arr,T,low,high):
-
     if low<=high:
         mid = low+(high-low)//2
         if arr[mid] == T:
@@ -50,3 +48,4 @@ if binary(arr,T,0,len(arr)-1) == -1:
     print("Element is not present in the array")
 else:
     print(f"Element is present in index position {binary(arr,T,0,len(arr)-1)}")
+
