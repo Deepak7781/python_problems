@@ -18,7 +18,6 @@ next terms.
 Input: 6
 Output: 6, 2, 1
 
-
 '''
 import math
 
